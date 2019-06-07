@@ -1,0 +1,34 @@
+.png {
+    cursor: url("Phantom_Thieves_Logo.png"), auto;
+}
+
+.cursors {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 100vh;
+}
+.cursor > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    box-sizing: border-box;
+    padding: 10px 2px;
+    text-align: center;
+    &:nth-child(odd) {
+      background: #eee;
+    }
+    &:hover {
+        opacity:0.25;
+    }
+body {
+  cursor:url("p5r4.png"), auto  !important;
+ width: 100%;
+ height:100%;
+  background:darkred;
+}
+
+a {
+  cursor:url(p5r4.png), auto !important;
+}
